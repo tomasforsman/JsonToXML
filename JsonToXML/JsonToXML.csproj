@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <StartupObject>JsonToXML.Program</StartupObject>
-    <RuntimeIdentifiers>win10-x64;ubuntu-x64</RuntimeIdentifiers>
+    <RuntimeIdentifiers>win10-x64;ubuntu-x64;linux-x64;rhel.7.4-x64</RuntimeIdentifiers>
   </PropertyGroup>
 
   <ItemGroup>

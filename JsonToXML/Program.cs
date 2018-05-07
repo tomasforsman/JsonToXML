@@ -18,7 +18,7 @@ namespace JsonToXML
                 string jsonSEB = File.ReadAllText(@"seb-accounts.json").ToString();
                 AccountsSEB accountsSEB = JsonConvert.DeserializeObject<AccountsSEB>(jsonSEB);
 
-                string jsonSwedbank = File.ReadAllText(@"w:\code\csharp\JsonToXML\swedbank-accounts.json").ToString();
+                string jsonSwedbank = File.ReadAllText(@"swedbank-accounts.json").ToString();
                 AccountsSwedbank accountsSwedbank = JsonConvert.DeserializeObject<AccountsSwedbank>(jsonSwedbank);
 
                 using (XmlWriter writer = XmlWriter.Create("merged-accounts.xml"))
