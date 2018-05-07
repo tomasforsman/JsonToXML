@@ -81,7 +81,7 @@ namespace JsonToXML
                 writer.WriteElementString("availableCurrency", account.DisposableAmount.CurrencyCode);
                 writer.WriteElementString("creditBalance", account.ApprovedCreditAmount.Amount);
                 writer.WriteElementString("creditCurrency", account.ApprovedCreditAmount.CurrencyCode);
-                writer.WriteStartElement("availableActions","test");
+                writer.WriteStartElement("availableActions");
                 if (account.Actions.Withdrawal == false)
                 {
                     writer.WriteAttributeString("withdrawal", "false");
@@ -149,7 +149,7 @@ namespace JsonToXML
                         writer.WriteElementString("creditBalance", "N/A");
                         writer.WriteElementString("creditCurrency", "N/A");
                     }
-                    writer.WriteStartElement("availableActions", "test");
+                    writer.WriteStartElement("availableActions");
                     writer.WriteAttributeString("withdrawal", "true");
                     writer.WriteAttributeString("deposit", "true");
                     writer.WriteAttributeString("payment", "true");
