@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "JsonToXML": {
+      "commandName": "Project",
+      "commandLineArgs": "\"seb-accounts.json\" \"swedbank-accounts.json\"",
+      "workingDirectory": "W:\\code\\csharp\\JsonToXML\\JsonToXML\\bin\\Debug\\netcoreapp2.0\\"
+    }
+  }
+}
