@@ -259,3 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# Local banking inputs and generated XML output
+/JsonToXML/*-accounts.json
+/JsonToXML/*.xml
